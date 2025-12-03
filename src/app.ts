@@ -1,6 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser';
-import { initDatabase } from './lib/db/prisma/index.js';
+import { initDatabase } from './lib/prisma/index.js';
 
 const app = express()
 app.set('x-powered-by', false)
